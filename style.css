@@ -80,3 +80,15 @@ body{
     margin-top: 1rem;
     /* box-shadow: var(--text_color) 0px 0px 10px 0px; */
 }
+@media screen and (max-width: 800px) {
+    body{
+        min-height: 100vh;
+        height: 1000px;
+    }
+    .game{
+        flex-direction: column;
+    }
+    .box{
+        width: 100%;
+    }
+}
